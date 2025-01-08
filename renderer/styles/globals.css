@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0;
+  }
+
+}
+
+@layer components {
+  .btn-blue {
+    @apply text-stone-100 font-bold px-4 py-2 rounded bg-sky-600 hover:bg-sky-500;
+  }
+}
