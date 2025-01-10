@@ -8,8 +8,12 @@ module.exports = {
   theme: {
     colors: {
       ...colors,
+      "viewer-color": 'rgb(11, 28, 44)'
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated'),
+    require('tailwind-scrollbar')
+  ],
 }

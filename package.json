@@ -11,21 +11,27 @@
   "dependencies": {
     "electron-serve": "^1.3.0",
     "electron-store": "^8.2.0",
-    "react-hook-form": "^7.54.2"
+    "minecraft-protocol": "^1.52.0",
+    "react-hexviewer-ts": "^0.2.3",
+    "sass": "^1.83.1",
+    "tailwindcss-animated": "^1.1.2"
   },
   "devDependencies": {
+    "@microlink/react-json-view": "^1.24.0",
     "@types/node": "^22.10.5",
-    "@types/react": "^19.0.3",
+    "@types/react": "^18.2.0",
     "autoprefixer": "^10.4.20",
     "electron": "^33.3.1",
     "electron-builder": "^25.1.8",
     "next": "^15.1.3",
     "nextron": "^9.4.0",
     "postcss": "^8.4.49",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^5.4.0",
+    "tailwind-scrollbar": "^3.1.0",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "uuid": "^11.0.4"
   }
 }

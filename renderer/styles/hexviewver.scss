@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hexviewer {
+  @apply text-white font-mono bg-gray-900 p-2 rounded;
+
+  .hex-row {
+    @apply flex items-center h-6 border-b border-gray-700;
+
+    .hex {
+      @apply flex flex-row whitespace-nowrap;
+    }
+
+    .ascii {
+      @apply flex-1 whitespace-nowrap;
+    }
+  }
+
+  .none {
+    @apply invisible;
+  }
+
+  .setAscii,
+  .setHex {
+    @apply float-left m-0 p-0 text-center mr-1 ml-1 rounded-md;
+
+    li {
+      @apply m-0 p-0 inline-block w-6;
+
+      &.active {
+        @apply font-bold text-white bg-green-500;
+      }
+    }
+
+    &.active {
+      @apply text-green-500;
+    }
+  }
+}
